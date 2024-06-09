@@ -1,0 +1,17 @@
+:main
+a_name MedievalMC
+a_version v26.5
+a_author SHXRKI
+
+:button instalar_MedievalMC
+text Instalar MedievalMC V26.5
+remove_server
+download_version n forge 1.20.1
+config server_type forge
+config server_version 1.20.1
+config_save
+say Descargando MedievalMC...
+download_file https://mediafilez.forgecdn.net/files/5191/312/MMC4_Forge_1.20.1_v26.5_HF_Serverpack.zip MMC4.zip
+unzip MMC4.zip
+say MMC4 instalado!
+sleep 3
